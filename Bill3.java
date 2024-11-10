@@ -7,6 +7,6 @@ public class Bill3 {
         int bill = Integer.parseInt(args[3]); 
         double personalBill = bill; 
         personalBill = Math.ceil(personalBill / 3); 
-        System.out.println("Dear" + " " + c +  "," + " " + b + "," + " " + "and " + a + ":" + " " + "pay" + " " + personalBill + " " + "Shekels" + " " + "each");
+        System.out.println("Dear" + " " + a +  "," + " " + b + "," + " " + "and " + c + ":" + " " + "pay" + " " + personalBill + " " + "Shekels" + " " + "each");
     }
 }
